@@ -1,0 +1,36 @@
+#project_main{
+    width: 80%; align-self: center; display: flex; flex-direction: column;
+}
+
+#project_main h2{
+    align-self: center; margin-bottom: 32px; 
+}
+
+#project_main>section{
+    display: flex; justify-content: space-evenly; flex-direction: column;
+}
+
+.project_row{
+    height: 300px; display: flex; justify-content: space-evenly;
+}
+
+.projects{
+    width: 250px;
+}
+
+.projects>a{
+    height: 250px; width: 100%; background-color: lightgray; display: block; text-align: center;
+}
+
+.projects>a:hover span{
+     opacity: 0.5; 
+}
+
+.projects>a img{
+    height: 100%; width: 100%; 
+}
+
+.projects>a>span{
+    padding: 8px; color: black;
+    background-color: hsla(0, 0%, 100%, .9); font-weight: 700; border-radius: 5px;
+}

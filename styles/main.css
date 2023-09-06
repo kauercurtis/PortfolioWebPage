@@ -1,0 +1,31 @@
+body{
+    display: flex; flex-direction: column; justify-content: center;  background-color: #fffafa;
+}
+
+header{
+    width: 80%; min-height: 150px; align-self: center; margin-bottom: 8px; 
+}
+
+header nav{
+    height: 40px; border-top: 2px solid black; border-bottom: 2px solid black;
+    margin-top: 4px;  
+}
+
+header>nav>ul{
+    height: 100%; margin: 0; padding: 0; list-style: none; display: flex;
+}
+
+header>nav>ul>li{
+    height: 50%; width: 56px; margin-right: 16px; margin-left: 16px; align-self: center; 
+}
+
+header>nav>ul>li>a{
+    height: 100%; width: 100%; display: block; border-radius: 5px; text-decoration: underline; background-color: unset;
+}
+
+header>nav>ul>li>a span{
+    height: 100%; width: 100%; display: block; text-align: center;
+}
+
+
+
